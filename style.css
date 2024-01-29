@@ -54,9 +54,14 @@
       padding: 100px 0;
       
     }
-    .boxed {
-     max-width: 1280px;
-     margin-inline:auto;
+    .boxed-about {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .img-responsive{
+      max-width: 100%;
+      height: auto;
     }
 
     .flex{
@@ -170,3 +175,11 @@
     box-sizing: border-box;
 
   }
+  .github{
+    color: yellow;
+  }
+  .call{
+    color:rgb(25, 146, 25);
+  }
+
+  
